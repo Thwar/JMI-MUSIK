@@ -1,0 +1,10 @@
+RewriteBase / 
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.html [NC,L]
+
+<Files ContactUs.html>
+ AddType application/x-httpd-php5 .html
+ </Files>
+

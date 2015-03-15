@@ -1,0 +1,480 @@
+@import url("http://fonts.googleapis.com/css?family=Lato:300,400");
+
+
+body {
+    color: white;
+    background: url('pic2.jpg');
+    /*    background: url(http://upload.wikimedia.org/wikipedia/commons/e/e5/Seine_wide.jpg);  */
+    /*background-size: cover;*/
+    background-position: 50% 0px;
+    background-attachment: fixed;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.9);
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+
+a:visited {
+    color: white;
+}
+
+/* CUSTOM CSS */
+.center {
+    display: block;
+    margin: 0 auto;
+    text-align:center;
+}
+
+.featuredVideo {
+    padding: 100px 0 100px 0;
+}
+
+.gridBlock {
+    background-color: rgba(0, 0, 0, 0.5);
+    min-height: 350px;
+}
+
+.gridBlock2 {
+    background-color: rgba(0, 0, 0, 0.7);
+    min-height: 350px;
+    margin-top:50px;
+    padding:40px;
+}
+.gridBlock2 img {
+    width:100%;
+}
+
+.marginFix {
+    margin:20px;
+}
+
+.musicPlayer {
+    margin-bottom: 50px;
+    width: 50%;
+}
+
+#fb-root {
+    display: none;
+}
+
+
+.banner {
+    position: relative;
+    overflow: auto;
+    margin-bottom: 20px;
+}
+
+    .banner ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    .banner li {
+        list-style: none;
+    }
+
+        .banner li img {
+            width: 90%;
+            margin: 0 auto;
+            display: block;
+        }
+
+    .banner ul li {
+        float: left;
+    }
+
+.facebookIcon {
+    background: url('grey/facebook.png');
+}
+
+.twitterIcon {
+    background: url('grey/twitter.png');
+}
+
+.youtubeIcon {
+    background: url('grey/you_tube.png');
+}
+
+.facebookIcon:hover {
+    background: url('colour/facebook.png');
+}
+
+.twitterIcon:hover {
+    background: url('colour/twitter.png');
+}
+
+.youtubeIcon:hover {
+    background: url('colour/you_tube.png');
+}
+
+.icon {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    height: 48px;
+    width: 48px;
+    display: inline-block;
+}
+
+
+
+
+
+/* To fill the container and nothing else */
+
+.fb_iframe_widget, .fb_iframe_widget span, .fb_iframe_widget span iframe[style] {
+    width: 100% !important;
+}
+
+
+/* HOME NAV*/
+#header {
+    height: 40px;
+    position: relative;
+    margin: 150px auto 0;
+}
+
+    #header ul {
+        margin: 0 auto;
+        width: 800px;
+        padding: 0;
+        list-style: none;
+    }
+
+        #header ul li {
+            float: left;
+            width: 97px;
+        }
+
+            #header ul li:nth-of-type(4) {
+                margin-left: 217px;
+            }
+
+            #header ul li a {
+                color: white;
+                text-transform: uppercase;
+                text-decoration: none;
+                display: block;
+                text-align: center;
+                padding: 12px 0 0 0;
+                height: 28px;
+                opacity: 0.6;
+                -webkit-transition: all 0.3s ease;
+                -moz-transition: all 0.3s ease;
+                transition: all 0.3s ease;
+                font: 300 1em/1.5em 'Lato';
+            }
+
+                #header ul li a:hover, .currentPage {
+                    opacity: 1 !important;
+                    /*  background: rgba(255,255,255,0.4); */
+                    /*outline: 2px solid white;*/
+                }
+
+
+.logo {
+    position: absolute;
+    left: 50%;
+    margin: -140px 0 0 -140px;
+}
+
+    .logo img {
+        width: 285px;
+    }
+
+
+
+/* END*/
+
+
+/*FOOTER NAV*/
+.footerNav {
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+}
+
+    .footerNav li {
+        display: inline-block;
+    }
+
+        .footerNav li a {
+            color: white;
+            text-transform: uppercase;
+            text-decoration: none;
+            display: block;
+            text-align: center;
+            padding: 12px 10px 0 10px;
+            height: 28px;
+            opacity: 0.6;
+            -webkit-transition: all 0.3s ease;
+            -moz-transition: all 0.3s ease;
+            transition: all 0.3s ease;
+            font: 300 1em/1.5em 'Lato';
+        }
+
+
+            .footerNav li a:hover {
+                opacity: 1;
+            }
+
+/* SLIDE MENU */
+.cbp-spmenu {
+    background: #47a3da;
+    position: fixed;
+    background: black;
+}
+
+.cbp-spmenu-vertical {
+    width: 240px;
+    height: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.cbp-spmenu-left {
+    left: -240px;
+}
+
+    .cbp-spmenu-left.cbp-spmenu-open {
+        left: 0px;
+    }
+
+/* Push classes applied to the body */
+.cbp-spmenu-push {
+    overflow-x: hidden;
+    position: relative;
+    left: 0;
+}
+
+.cbp-spmenu-push-toright {
+    left: 240px;
+}
+
+.cbp-spmenu-push-toleft {
+    left: -240px;
+}
+
+/* Transitions */
+.cbp-spmenu,
+.cbp-spmenu-push {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+    .cbp-spmenu ul {
+        padding: 0;
+        margin: 50px 0 0 0;
+    }
+
+    .cbp-spmenu li {
+        list-style: none;
+        margin: 0;
+    }
+
+    .cbp-spmenu ul li a {
+        color: white;
+        text-decoration: none;
+         padding: 20px 0 20px 60px;
+         display:block;
+             -webkit-transition: all 0.1s ease;
+    -moz-transition: all 0.1s ease;
+    transition: all 0.1s ease;
+      opacity: 0.8;
+    }
+
+    .cbp-spmenu ul li a:hover {
+        background: rgba(255,255,255,0.1);
+        opacity: 1;
+    }
+
+
+.pure-img-responsive {
+    max-width: 100%;
+    height: auto;
+}
+/* END SLIDE MENU */
+
+
+.content {
+    margin: 0 auto;
+    padding: 0 2em;
+    max-width: 1200px;
+    margin-bottom: 50px;
+    line-height: 1.6em;
+    clear: both;
+}
+
+.header {
+    margin: 0;
+    color: #333;
+    text-align: center;
+    padding: 2.5em 2em 0;
+    border-bottom: 1px solid grey;
+}
+
+    .header h1 {
+        margin: 0.2em 0;
+        font-size: 3em;
+        font-weight: 300;
+    }
+
+    .header h2 {
+        font-weight: 300;
+        color: #ccc;
+        padding: 0;
+        margin-top: 0;
+    }
+
+.content-subhead {
+    margin: 50px 0 20px 0;
+    font-weight: 300;
+    color: #888;
+}
+
+
+
+/*
+`.menu-link` represents the responsive menu toggle that shows/hides on
+small screens.
+*/
+.menu-link {
+    position: relative;
+    display: block; /* show this only on small screens */
+    top: 0;
+    left: 240px; /* "#menu width" */
+    background: #000;
+    background: rgba(0,0,0,0.4);
+    font-size: 10px; /* change this value to increase/decrease button size */
+    z-index: 10;
+    width: 2em;
+    height: auto;
+    padding: 2.1em 1.6em;
+    border-radius: 4px;
+}
+
+    .menu-link:hover {
+        background: rgba(255,255,255,0.1);
+    }
+
+    .menu-link span {
+        position: relative;
+        display: block;
+    }
+
+        .menu-link span,
+        .menu-link span:before,
+        .menu-link span:after {
+            background-color: #fff;
+            width: 100%;
+            height: 0.2em;
+        }
+
+            .menu-link span:before,
+            .menu-link span:after {
+                position: absolute;
+                margin-top: -0.6em;
+                content: " ";
+            }
+
+            .menu-link span:after {
+                margin-top: 0.6em;
+            }
+
+
+/* -- Responsive Styles (Media Queries) ------------------------------------- */
+
+
+
+@media screen and (max-width: 800px) {
+    .logo {
+        bottom: -25px;
+    }
+
+    #header ul li:nth-of-type(4) {
+        margin-left: 0;
+    }
+
+    #header ul {
+        width: 600px;
+        position: relative;
+    }
+
+    .musicPlayer {
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .featuredVideo {
+        width: 100%;
+    }
+
+    #header ul {
+        width: 300px !important;
+    }
+}
+
+
+@media screen and (max-width: 350px) {
+
+
+    .pure-g {
+        display: inline-flex;
+    }
+
+    .marginFix {
+        margin: 0;
+    }
+}
+
+
+/*
+Hides the menu at `48em`, but modify this based on your app's needs.
+*/
+@media (min-width: 48em) {
+
+    .header,
+    .content {
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+
+    #layout {
+        padding-left: 0px; /* left col width "#menu" */
+        left: 0;
+    }
+
+    #menu {
+        left: 0px;
+        display: none;
+    }
+
+    .menu-link {
+        /*   position: fixed;
+       left: 150px;
+        display: none;*/
+    }
+
+    #layout.active .menu-link {
+        /*  left: 150px;*/
+    }
+}
+
+@media (max-width: 48em) {
+    /* Only apply this when the window is small. Otherwise, the following
+    case results in extra padding on the left:
+        * Make the window small.
+        * Tap the menu to trigger the active state.
+        * Make the window large again.
+    */
+    #layout.active {
+        position: relative;
+        /*  left: 150px;*/
+    }
+}

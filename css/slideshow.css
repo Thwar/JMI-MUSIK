@@ -1,0 +1,56 @@
+@import url("http://fonts.googleapis.com/css?family=Lato:300,400");
+
+#s3slider {
+    width: 95%; /* important to be same as image width */
+    height: 500px; /* important to be same as image height */
+    position: relative; /* important */
+    overflow: hidden; /* important */
+        min-width:220px;
+        margin: 0 auto; 
+        margin-bottom:25px;
+}
+ 
+#s3sliderContent {
+    width: 100%; /* important to be same as image width or wider */
+    position: absolute; /* important */
+    top: 0; /* important */
+    margin: 0; /* important */
+    padding:0;
+
+}
+ 
+.s3sliderImage {
+    float: left; /* important */
+    position: relative; /* important */
+    display: none; /* important */
+}
+
+    .s3sliderImage img {
+        width:100%;
+    }
+ 
+.s3sliderImage span {
+    position: absolute; /* important */
+    left: 0;
+    font: 400 20px/15px 'Lato';
+  text-transform: uppercase;
+    padding: 10px 13px;
+    width: 374px;
+    background-color: #000;
+    filter: alpha(opacity=70); /* here you can set the opacity of box with text */
+    -moz-opacity: 0.7; /* here you can set the opacity of box with text */
+    -khtml-opacity: 0.7; /* here you can set the opacity of box with text */
+    opacity: 0.7; /* here you can set the opacity of box with text */
+    color: #fff;
+    display: none; /* important */
+    top: 450px; /*
+        if you put top: 0;  -> the box with text will be shown 
+                                at the top of the image
+        if you put bottom: 0;  -> the box with text will be shown 
+                                at the bottom of the image
+    */
+}
+ 
+.clear {
+    clear: both;
+}
